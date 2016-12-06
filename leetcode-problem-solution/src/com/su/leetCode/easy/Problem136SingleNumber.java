@@ -36,6 +36,7 @@ public class Problem136SingleNumber {
 		for(int i = 1; i<nums.length; i++){
 			nums[0] = nums[0]^nums[i];
 		}
+		
 		return nums[0];
 	}
 
