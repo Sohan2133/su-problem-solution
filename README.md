@@ -1,2 +1,2 @@
-dfsdfasdfsdfsafsdd# su-problem-solution
+dfsdfsdfasdfsdfsafsdd# su-problem-solution
 The repository contains solution of different programming problem's solution. 
