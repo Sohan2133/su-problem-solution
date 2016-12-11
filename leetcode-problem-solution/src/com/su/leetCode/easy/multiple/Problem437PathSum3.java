@@ -17,7 +17,9 @@ public class Problem437PathSum3 {
 		tn.right = new TreeNode(13);
 		tn.left.left = new TreeNode(12);
 		tn.left.right = new TreeNode(13);
-		System.out.println(pathSum(tn, 23));
+		int counter = 0;
+		counter += pathSum(tn, 23);
+		System.out.println(counter);
 	}
 	
 	public static int pathSum(TreeNode root, int sum) {
@@ -32,7 +34,7 @@ public class Problem437PathSum3 {
         }
 		
         sum = sum - root.val;
-        int counter1 = pathSum(root.left, sum);
+        int counter1 =  pathSum(root.left, sum);
         int counter2 = pathSum(root.right, sum);
         return counter1 + counter2;
         
