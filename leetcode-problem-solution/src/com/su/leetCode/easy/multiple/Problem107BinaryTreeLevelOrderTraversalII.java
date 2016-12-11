@@ -1,18 +1,20 @@
 package com.su.leetCode.easy.multiple;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Deque;
 import java.util.LinkedList;
 import java.util.List;
 
-public class Problem102BinaryTreeLevelOrderTraversal {
+public class Problem107BinaryTreeLevelOrderTraversalII {
 
 	public static void main(String[] args) {
+		// TODO Auto-generated method stub
 
 	}
 	
-	public List<List<Integer>> levelOrder(TreeNode root) {
-        List<List<Integer>> levelOrderValues = new ArrayList<List<Integer>>();
+	public List<List<Integer>> levelOrderBottom(TreeNode root) {
+		List<List<Integer>> levelOrderValues = new ArrayList<List<Integer>>();
         if(root == null){
         	return levelOrderValues;
         }
@@ -42,7 +44,7 @@ public class Problem102BinaryTreeLevelOrderTraversal {
         		levelOrderValues.add(levelValues);
         	}
         }
+        Collections.reverse(levelOrderValues);
         return levelOrderValues;
     }
-
 }
