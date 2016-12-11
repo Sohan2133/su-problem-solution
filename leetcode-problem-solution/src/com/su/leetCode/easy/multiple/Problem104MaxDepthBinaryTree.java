@@ -25,11 +25,11 @@ public class Problem104MaxDepthBinaryTree {
 			return counter;
 		stack.push(root);
 		while(!stack.isEmpty()){
-			int size = stack.size();
-			TreeNode node = stack.pop();
+			int size = stack.size();			
 			
 			while(size > 0){
 				size --;
+				TreeNode node = stack.pop();
 				if(node.left != null){
 					stack.add(node.left);
 				}
