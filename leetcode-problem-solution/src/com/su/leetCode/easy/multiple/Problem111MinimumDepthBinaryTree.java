@@ -6,7 +6,16 @@ import java.util.LinkedList;
 public class Problem111MinimumDepthBinaryTree {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		TreeNode tn = new TreeNode(1);
+		tn.left = new TreeNode(2);
+		tn.right = new TreeNode(3);
+		tn.left.left = new TreeNode(4);
+		tn.left.right = new TreeNode(5);
+		
+//		tn.right.left = new TreeNode(6);
+//		tn.right.right = new TreeNode(7);
+		
+		System.out.println(minDepth11(tn));
 
 	}
 	
@@ -47,5 +56,14 @@ public class Problem111MinimumDepthBinaryTree {
         }
         return counter;
     }
+	
+	public static int minDepth11(TreeNode root) {
+		if(root == null){
+			return 0;
+		}
+		int left = 1 + minDepth1(root.left);
+		int right = 1 + minDepth1(root.right);
+		return Math.min(left, right);
+	}
 	
 }
