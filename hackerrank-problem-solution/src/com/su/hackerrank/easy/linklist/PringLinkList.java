@@ -1,4 +1,5 @@
-package com.su.hackerrank.easy.arrays;
+package com.su.hackerrank.easy.linklist;
+
 
 public class PringLinkList {
 
