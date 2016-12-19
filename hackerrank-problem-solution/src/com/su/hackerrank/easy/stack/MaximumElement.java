@@ -10,7 +10,6 @@ public class MaximumElement {
 		Stack<Integer> stack = new Stack<>();
 		int max = Integer.MIN_VALUE;		
 		int n = sc.nextInt();
-		
 		for(int i = 0; i<n ; i++){
 			int type = sc.nextInt();
 			switch (type) {
