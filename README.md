@@ -1,5 +1,5 @@
 # su-problem-solution
-A java implemention of different source's (leetcode, hackerrank etc) problem.
+A java and python implemention of different source's (leetcode, hackerrank etc) problem.
 
 ## Description
 The project contains multiple modules based on different source of problem. For example the
