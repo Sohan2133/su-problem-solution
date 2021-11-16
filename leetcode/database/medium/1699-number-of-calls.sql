@@ -43,3 +43,10 @@ from
 where person1 < person2
 group by 1,2
 ;
+
+output:
+ person1 | person2 | call_count | call_duration
+---------+---------+------------+---------------
+       1 |       3 |          1 |            20
+       3 |       4 |          4 |           999
+       1 |       2 |          2 |            70
