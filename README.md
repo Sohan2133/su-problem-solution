@@ -5,7 +5,8 @@ A java and python implemention of different source's (leetcode, hackerrank etc) 
 The project contains multiple modules based on different source of problem. For example the
 `hackerrank-problem-solution` and `leetcode-problem-solution` modules in the project contain
 the solution of different problems created in [hackerrank](https://www.hackerrank.com/) 
-and [leetcode](https://leetcode.com/) platforms respectively.
+and [leetcode](https://leetcode.com/) platforms.
+respectively.
 
 ## Getting started
 Java sdk must be installed to run any of example. To start using the code
