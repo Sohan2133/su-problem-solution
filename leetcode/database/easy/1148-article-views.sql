@@ -6,6 +6,7 @@
 | viewer_id     | int     |
 | view_date     | date    |
 +---------------+---------+
+Question: Write a solution to find all the authors that viewed at least one of their own articles.
 
 DROP TABLE IF EXISTS Views;
 CREATE TABLE IF NOT EXISTS Views (

@@ -22,6 +22,10 @@ There is no primary key for this table, it may contain duplicates.
 This table contains the ID of the user who sent the request, the ID of the user who received the request, 
 and the date when the request was accepted.
 
+Question: Write an SQL query to find the overall acceptance rate of requests, 
+which is the number of acceptance divided by the number of requests. Return the answer rounded 
+to 2 decimals places.
+
 DROP TABLE IF EXISTS FriendRequest;
 CREATE TABLE IF NOT EXISTS FriendRequest (
 	sender_id int,

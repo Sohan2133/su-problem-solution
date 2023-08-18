@@ -11,6 +11,7 @@
 | H       | Math       |
 | I       | Math       |
 +---------+------------+
+Question: Find the classes with at least 5 students.
 
 select 
 	class

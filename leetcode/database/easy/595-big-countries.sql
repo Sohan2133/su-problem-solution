@@ -9,6 +9,7 @@
 +-----------------+------------+------------+--------------+---------------+
 A country is big if it has an area of bigger than 3 million square km or a population of more than 25 million.
 
+Question: Write a query to find big countries.
 
 select
 	name,

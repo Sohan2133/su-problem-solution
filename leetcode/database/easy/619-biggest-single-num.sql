@@ -12,6 +12,8 @@
 | 6 |
 +---+
 
+Question: write a SQL query to find the biggest number, which only appears once. 
+
 DROP TABLE IF EXISTS Number;
 CREATE TABLE IF NOT EXISTS Number (
 	num int  

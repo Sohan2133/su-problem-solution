@@ -7,6 +7,7 @@
 |   4     | Ice song  |   Fantacy    |   8.6     |
 |   5     | House card|   Interesting|   9.1     |
 +---------+-----------+--------------+-----------+
+Question: write a SQL query to output movies with an odd numbered ID and a description that is not ‘boring’
 
 DROP TABLE IF EXISTS Cinema;
 CREATE TABLE IF NOT EXISTS Cinema (

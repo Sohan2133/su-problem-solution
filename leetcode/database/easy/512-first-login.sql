@@ -6,6 +6,7 @@
 | event_date   | date    |
 | games_played | int     |
 +--------------+---------+
+question: For first login records, find out the device_id of each player_id. 
 
 DROP TABLE IF EXISTS Activity;
 CREATE TABLE Activity(

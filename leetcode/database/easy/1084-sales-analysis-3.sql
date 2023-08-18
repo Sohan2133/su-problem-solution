@@ -6,6 +6,7 @@ Table : product
 | product_name | varchar |
 | unit_price   | int     |
 +--------------+---------+
+Question: Write an SQL query that reports the products that were only sold in the first quarter of 2019. That is, between 2019-01-01 and 2019-03-31 inclusive.
 
 DROP TABLE IF EXISTS product;
 CREATE TABLE IF NOT EXISTS product (

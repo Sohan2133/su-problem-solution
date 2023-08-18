@@ -16,6 +16,7 @@ Table: Employee
 | name             | varchar |
 | experience_years | int     |
 +------------------+---------+
+Question: Write an SQL query that reports the average experience years of all the employees for each project, rounded to 2 digits.
 
 select 
 	project_id,

@@ -21,4 +21,4 @@ Table: Sales
 +------ ------+---------+
 This table has no primary key, it can have repeated rows.
 product_id is a foreign key to Product table.
-
+Question: Write an SQL query that reports the best seller by total sales price. If there is a tie, report them all.

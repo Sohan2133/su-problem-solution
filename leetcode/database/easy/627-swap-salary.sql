@@ -5,6 +5,9 @@
 | 3  | C    | m   | 5500   |
 | 4  | D    | f   | 500    |
 
+Question: Write an SQL query to swap all 'f' and 'm' values (i.e., change all 'f' values to 'm' and vice versa) 
+with a single update statement and no intermediate temporary tables
+
 DROP TABLE IF EXISTS salary;
 CREATE TABLE IF NOT EXISTS salary (
 	id int, 

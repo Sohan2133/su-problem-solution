@@ -5,6 +5,8 @@
 | 3            | 3               | 2017-04-16 | 2017-04-25    | 2017-04-20   | Closed |         |
 | 4            | 3               | 2017-04-18 | 2017-04-28    | 2017-04-25   | Closed |         |
 
+Question: Find the customer with highest number of order.
+
 select 
 	customer_number,
 	number 

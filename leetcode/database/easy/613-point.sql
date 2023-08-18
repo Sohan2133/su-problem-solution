@@ -7,6 +7,7 @@ INSERT INTO Point(x) values(-1);
 INSERT INTO Point(x) values(0);
 INSERT INTO Point(x) values(2);
 
+Question: Find min distance between two points. 
 
 select 
 	min(abs(t1.x - t2.x)) as dis

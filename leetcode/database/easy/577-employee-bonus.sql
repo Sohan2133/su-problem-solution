@@ -14,6 +14,9 @@
 | 4     | 2000  |
 +-------+-------+
 
+question: Write an SQL query to report the name and bonus amount of each employee with a bonus less than 1000.
+
+
 select 
 	t1.name,
 	t2.bonus

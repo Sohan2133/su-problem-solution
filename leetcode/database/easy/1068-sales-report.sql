@@ -41,6 +41,7 @@ Result table:
 | Nokia        | 2009  | 5000  |
 | Apple        | 2011  | 9000  |
 +--------------+-------+-------+
+Question: Write an SQL query that reports the product_name, year, and price for each sale_id in the Sales table.
 
 select 
 	product_name, year, price

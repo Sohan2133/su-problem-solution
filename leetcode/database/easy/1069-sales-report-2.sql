@@ -40,6 +40,7 @@ Result table:
 | 100          | 22             |
 | 200          | 15             |
 +--------------+----------------+
+Question: Write an SQL query that reports the total quantity sold for every product id.
 
 select 
 	product_id, 

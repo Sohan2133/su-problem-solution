@@ -16,6 +16,7 @@ Table: Employee
 | name             | varchar |
 | experience_years | int     |
 +------------------+---------+
+Question: Write an SQL query that reports all the projects that have the most employees.
 
 select 
 	project_id

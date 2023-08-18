@@ -8,7 +8,7 @@ Activity table:
 | event_date   | date    |
 | games_played | int     |
 +--------------+---------+
-
+question: find the player with first login date. 
 Activity table:
 +-----------+-----------+------------+--------------+
 | player_id | device_id | event_date | games_played |

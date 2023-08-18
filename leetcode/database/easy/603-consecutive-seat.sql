@@ -6,6 +6,7 @@
 | 4       | 1    |
 | 5       | 1    |
 
+Question: query all the consecutive available seats order by the seat_id
 
 DROP TABLE IF EXISTS Seat;
 CREATE TABLE IF NOT EXISTS Seat (

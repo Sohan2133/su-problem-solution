@@ -3,6 +3,8 @@
 | 13 | 15 | 30 |
 | 10 | 20 | 15 |
 
+Question: Find whether the three side can make a trinagle or not. 
+
 DROP TABLE IF EXISTS trinagle;
 CREATE TABLE IF NOT EXISTS trinagle (
 	x int,

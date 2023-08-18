@@ -22,6 +22,7 @@ CREATE TABLE IF NOT EXISTS Weather (
 | 3  | 2015-01-03 | 20          |
 | 4  | 2015-01-04 | 30          |
 +----+------------+-------------+
+Question: Find all dates Id with higher temperatures compared to its previous dates (yesterday).
 
 INSERT INTO Weather(id, recordDate, temperature) VALUES(1 ,'2015-01-01',10 );
 INSERT INTO Weather(id, recordDate, temperature) VALUES(2 ,'2015-01-02',25 );

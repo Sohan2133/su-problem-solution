@@ -5,6 +5,8 @@
 | 2  | bob@example.com  |
 | 3  | john@example.com |
 +----+------------------+
+Question: Write an SQL query to delete all the duplicate emails, 
+keeping only one unique email with the smallest id.
 
 CREATE TABLE IF NOT EXISTS Person(
     Id int PRIMARY KEY, 

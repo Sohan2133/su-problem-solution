@@ -6,6 +6,8 @@
 | order_date                  | date    |
 | customer_pref_delivery_date | date    |
 +-----------------------------+---------
+Question: If the customers preferred delivery date is the same as the order date, then the order is called immediate; otherwise, it is called scheduled.
+Find the percentage of immediate orders in the table, rounded to 2 decimal places.
 
 
 DROP TABLE IF EXISTS Delivery;

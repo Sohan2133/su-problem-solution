@@ -10,7 +10,7 @@ ActorDirector table:
 | 2           | 1           | 5           |
 | 2           | 1           | 6           |
 +-------------+-------------+-------------+
-
+Question: Find all the pairs (actor_id, director_id) where the actor has cooperated with the director at least three times.
 select 
 	actor_id,
 	director_id

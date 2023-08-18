@@ -53,6 +53,7 @@ Table: orders
 | 4        |   4/1/2014 |    1    |    4     | 25000  |
 +----------+----------+---------+----------+--------+
 The table orders holds the sales record information, salesperson and customer company are represented by sales_id and com_id.
+Question: Find the names of all the salespersons who did not have any orders related to the company with the name "RED"
 
 DROP TABLE IF EXISTS orders;
 CREATE TABLE IF NOT EXISTS orders (
