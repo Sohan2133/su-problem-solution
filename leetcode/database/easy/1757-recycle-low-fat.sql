@@ -6,6 +6,7 @@ Table: Product
 | low_fats    | enum    |
 | recyclable  | enum    |
 +-------------+---------
+question: Write a solution to find the ids of products that are both low fat and recyclable.
 
 select 
 	product_id
