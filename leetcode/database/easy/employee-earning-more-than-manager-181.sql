@@ -27,3 +27,11 @@ select
 from Employee t1 left join Employee t2 
 on t1.ManagerId = t2.Id 
 where t1.Salary > t2.Salary;
+
+
+-------Sohan's-Solution-------
+select 
+    t1.name as employee_name
+from employee1 t1
+left join employee1 t2 on t1.managerId=t2.id
+where t1.salary > t2.salary;
