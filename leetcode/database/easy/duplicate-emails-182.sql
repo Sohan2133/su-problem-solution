@@ -1,3 +1,4 @@
+--Person table:
 +----+---------+
 | Id | Email   |
 +----+---------+
@@ -5,7 +6,7 @@
 | 2  | c@d.com |
 | 3  | a@b.com |
 +----+---------+
-
+--ques:Write a solution to report all the duplicate emails. Note that it's guaranteed that the email field is not NULL.
 CREATE TABLE IF NOT EXISTS Person(
     Id int PRIMARY KEY, 
     Email VARCHAR(100)

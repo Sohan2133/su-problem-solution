@@ -6,6 +6,15 @@
 | 3  | 300    |
 +----+--------+
 
+expected Output: 
++---------------------+
+| SecondHighestSalary |
++---------------------+
+| 200                 |
++---------------------+
+
+Write a solution to find the second highest salary from the Employee table. If there is no second highest salary, return null
+
 CREATE TABLE IF NOT EXISTS Employee(
     Id int PRIMARY KEY,
     Salary int

@@ -1,3 +1,4 @@
+--employee1 table:
 +----+-------+--------+-----------+
 | Id | Name  | Salary | ManagerId |
 +----+-------+--------+-----------+
@@ -6,6 +7,7 @@
 | 3  | Sam   | 60000  | NULL      |
 | 4  | Max   | 90000  | NULL      |
 +----+-------+--------+-----------+
+--Write a solution to find the employees who earn more than their managers.
 
 CREATE TABLE IF NOT EXISTS Employee(
     Id int PRIMARY KEY, 
