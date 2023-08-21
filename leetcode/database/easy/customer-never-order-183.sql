@@ -33,6 +33,8 @@ CREATE TABLE IF NOT EXISTS Orders(
 INSERT INTO Orders(Id, CustomerId) VALUES(1, 3);
 INSERT INTO Orders(Id, CustomerId) VALUES(2, 1);
 
+-----Write a solution to find all customers who never order anything
+
 select
 	t1.Name as Customers
 from Customer t1 left join Orders t2 

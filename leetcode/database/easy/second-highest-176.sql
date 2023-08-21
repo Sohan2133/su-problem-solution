@@ -55,3 +55,23 @@ select
 	offset 1
 	limit 1
 	)as secondHighestSalary
+
+
+-------Sohan's-Solution-------
+
+	---first solution:
+select 
+	top 1 salary as SecondHighestSalary
+from employees
+where salary < (select max(salary) from employees)
+order by salary desc;
+
+
+--second solution:
+select 
+	top 1 salary as SecondHighestSalary
+from (select
+	top 2 salary
+from employees
+order by salary desc)as t
+order by salary asc;
