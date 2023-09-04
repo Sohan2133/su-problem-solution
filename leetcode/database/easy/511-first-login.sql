@@ -26,3 +26,12 @@ select
 from activity
 group by 1
 
+
+-----Sohan's Solution---
+
+select
+    player_id,
+    min(event_date) as first_login
+from Activity
+group by player_id;
+
