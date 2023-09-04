@@ -33,3 +33,10 @@ update salary set sex = 'm' where sex = 'fm';
 Better solution:
 -----------------------
 update salary set sex = (case when sex = 'm' then 'f' else 'm' end);
+
+
+
+----SOHAN'S SOLUTION---
+update
+salary
+set sex=(case when sex='f' then 'm' else 'f' end);
