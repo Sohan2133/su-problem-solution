@@ -50,3 +50,21 @@ from
 	)t2
 on t1.device_id = t2.player_id
 ;
+
+
+---Sohan's Solution---
+
+select
+ t1.player_id,
+ t1.device_id
+from (select
+			distinct player_id,
+			device_id
+	  from Activity) as t1
+	  join
+	  (select
+			player_id,
+			min(event_date) as first_login
+		from Activity
+		group by player_id) as t2
+		on t1.device_id=t2.player_id;

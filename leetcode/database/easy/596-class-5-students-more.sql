@@ -18,3 +18,27 @@ select
 from course 
 group by 1 
 having count(distinct student) >= 5
+
+
+
+---Sohan's solution----
+
+---first solution--
+select 
+	class
+from courses
+group by class
+having count(distinct student) >=5;
+
+
+---second solution--
+
+select
+     class
+from     
+(select 
+    class,
+    count(distinct student) as student_count
+from courses
+group by class)as t
+where student_count>= 5;
