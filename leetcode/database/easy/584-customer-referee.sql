@@ -16,3 +16,23 @@ select
 from customers
 where referee_id <> '2' 
 or referee_id is null 
+
+
+----Sohan's Solution---
+1st solution: 
+select
+	name
+from customer
+where name not in
+	(select
+		name 
+	from customer
+	where referee_id =2
+	);
+
+2nd solution:
+
+select
+    name
+from customer
+where referee_id is null or referee_id<>2

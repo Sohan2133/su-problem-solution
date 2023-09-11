@@ -7,6 +7,7 @@ Table: Playback
 | start_time  | int  |
 | end_time    | int  |
 +-------------+------+
+---write an SQL query to report all the sessions that did not get shown any aids---
 DROP TABLE IF EXISTS Playback;
 CREATE TABLE IF NOT EXISTS Playback (
 	session_id int,
@@ -51,4 +52,10 @@ from Playback t1 left join Ads t2 on t1.customer_id = t2.customer_id
 where (t1.start_time > timestamp or t1.end_time < timestamp)
 or t2.customer_id is null
 ;
+----Sohan's Solution---
+select	
+	distinct session_id
+from playback p left join Ads a on p.customer_id=a.customer_id
+And a.timestamp BETWEEN p.start_time AND p.end.time
+where a.customer_id is null;
 

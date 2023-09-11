@@ -82,4 +82,4 @@ INSERT INTO Address(AddressId,PersonId,City,State) VALUES (2,3,'Leetcode', 'Cali
     city,
     state
  from person1 p
- join address a on p.personId=a.personId; 
+ left join address a on p.personId=a.personId; 

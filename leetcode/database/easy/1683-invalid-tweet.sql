@@ -20,3 +20,11 @@ select
 from Tweets
 where char_length(content) > 15;
 
+
+----Sohan's Solution---
+
+select
+	tweet_id
+from tweets
+where len(content)>15 ;
+
