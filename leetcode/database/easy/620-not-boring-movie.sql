@@ -31,3 +31,14 @@ from Cinema
 where id % 2 = 1 
 and description not like '%boring%'
 ;
+
+----Sohan's Solution---
+
+select
+    id,
+    movie,
+    description,
+    rating
+from Cinema
+where id%2 <> 0 and description <> 'boring' 
+order by rating desc;
