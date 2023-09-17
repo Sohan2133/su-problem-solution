@@ -14,7 +14,7 @@ select
 from Point t1, Point t2 
 where t1.x != t2.x
 
----Sohan's solution---
+---here is Sohan's solution---------
 select
 	min(abs(p1.x - p2.x)) as distance
 from point p1 join point p2 
