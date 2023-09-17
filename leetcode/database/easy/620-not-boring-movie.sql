@@ -32,7 +32,7 @@ where id % 2 = 1
 and description not like '%boring%'
 ;
 
-----Sohan's Solution---
+----here Sohan's Solution---
 
 select
     id,
