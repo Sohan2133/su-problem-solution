@@ -16,8 +16,8 @@ select
 	population,
 	area
 from country
-where area > 3000000 
-or population > 25000000
+where area >= 3000000 
+or population >= 25000000
 
 
 
